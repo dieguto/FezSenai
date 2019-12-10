@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.0.2",
+    "sequelize": "^5.21.2",
+    "yarn": "^1.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1",
+    "sequelize-cli": "^5.5.1"
+  }
+}

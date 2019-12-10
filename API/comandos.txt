@@ -1,0 +1,14 @@
+    
+npm init -- pegar node-modules e a package json
+
+npm install sequelize express - instalar o sequelize e o express
+
+npm install -D sequelize-cli -- dependência de desenvolvimento
+
+
+
+
+ 
+
+
+
