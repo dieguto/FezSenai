@@ -1,6 +1,8 @@
 const Sequelize = require('sequelize');
 const dbConfig = require('../config/database');
 const Curso = require('../models/Curso');
+const Turma = require('../models/Turma');
+const Aluno = require('../models/Aluno');
 
 // User = require('../models/User');
 //const Address = require('../models/Address');
@@ -9,6 +11,8 @@ const Curso = require('../models/Curso');
 const connection = new Sequelize(dbConfig);
 
 Curso.init(connection);
+Turma.init(connection);
+Aluno.init(connection);
 
 
 //console.log(connection);

@@ -26,7 +26,7 @@ CREATE TABLE tbl_turma (
     periodo CHAR(1) NOT NULL,
     id_curso INT NOT NULL,
     CONSTRAINT fk_id_curso FOREIGN KEY (id_curso)
-        REFERENCES tbl_curso (id_curso)
+        REFERENCES tbl_curso (id_cnurso)
 );
 
 CREATE TABLE tbl_curso (

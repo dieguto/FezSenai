@@ -9,7 +9,7 @@ class Curso extends Model {
 
     }, {
       sequelize, timestamps:  false, 
-      tableName : "tbl_cursos"
+      tableName : "tbl_curso"
     })
   }
   
