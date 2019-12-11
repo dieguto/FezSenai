@@ -151,7 +151,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="8"
                     android:paddingTop="6dp"
-                    android:text="Evelyn Fernandes Rocha"
+                    android:text="Alice de Almeida"
                     android:paddingLeft="4dp" />
             </LinearLayout>
 
@@ -171,7 +171,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="8"
                     android:paddingTop="6dp"
-                    android:text="e.fernandesrocha16@gmail.com"
+                    android:text="aline.almeida@gmail.com"
                     android:paddingLeft="4dp" />
             </LinearLayout>
 
