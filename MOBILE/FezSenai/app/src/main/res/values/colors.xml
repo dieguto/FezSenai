@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3f51b5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="preto">#000000</color>
+    <color name="branco">#ffffff</color>
+    <color name="vermelho">#ff6d54</color>
+    <color name="vermelho2">#ff4d2f</color>
+
+    <color name="vermelhoSenai">#ff0000</color>
 </resources>

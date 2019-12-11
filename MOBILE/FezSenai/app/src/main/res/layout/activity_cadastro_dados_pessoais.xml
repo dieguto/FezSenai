@@ -13,7 +13,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="50dp"
         android:elevation="1dp"
-        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardBackgroundColor="@color/preto"
         app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -26,7 +26,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:elevation="1dp"
-        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardBackgroundColor="@color/preto"
         app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/cardView2"
@@ -41,7 +41,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginStart="50dp"
         android:elevation="1dp"
-        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardBackgroundColor="@color/vermelhoSenai"
         app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -66,9 +66,10 @@
         android:layout_height="66dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher_round" />
+        app:srcCompat="@drawable/manuser" />
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardView4"
@@ -77,15 +78,16 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
-        app:cardBackgroundColor="@color/colorAccent"
-        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@drawable/gradiente_card">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -95,7 +97,7 @@
                 android:layout_marginStart="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                app:srcCompat="@drawable/smartphone" />
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -107,7 +109,7 @@
                 app:layout_constraintBottom_toTopOf="@+id/imageView3"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView4"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                app:srcCompat="@drawable/calendar" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -117,7 +119,7 @@
                 android:layout_marginTop="70dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@mipmap/ic_launcher_round" />
+                app:srcCompat="@drawable/name" />
 
             <EditText
                 android:id="@+id/editText"
@@ -127,8 +129,8 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name"
+                android:inputType="phone"
+                android:text="Celular"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -143,8 +145,8 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name"
+                android:inputType="date"
+                android:text="Data de Nascimento"
                 app:layout_constraintBottom_toTopOf="@+id/editText"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
@@ -160,7 +162,7 @@
                 android:layout_marginTop="70dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="Name"
+                android:text="Nome"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView3"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -193,7 +195,7 @@
         app:layout_constraintStart_toStartOf="@+id/cardView6" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/prosseguir"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginBottom="8dp"
